@@ -1,0 +1,73 @@
+body {
+  background: rgba(255, 0, 0, 0.64);
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.64) 0%,
+    rgba(247, 255, 25, 0.65) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.64) 0%,
+    rgba(247, 255, 25, 0.65) 100%
+  );
+}
+.container {
+  width: 85%;
+  margin: auto;
+  padding-top: 2rem;
+  height: 120vh;
+  transition: 600ms;
+}
+.container h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.images {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.images img {
+  width: 17rem;
+  -webkit-box-shadow: 1px 7px 13px -5px #252525;
+  -moz-box-shadow: 1px 7px 13px -5px #252525;
+  box-shadow: 1px 7px 13px -5px #252525;
+}
+.images img:nth-child(2) {
+  width: 18.5rem;
+}
+.small {
+  text-align: center;
+  padding: 20px 0px;
+}
+.small small {
+  padding: 0.4rem;
+  background-color: #ff3c00;
+  border-radius: 5px;
+  color: #dddddd;
+}
+.inputNum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 5px;
+  max-width: 54%;
+  margin: auto;
+}
+.inputNum input {
+  position: relative;
+  height: 2rem;
+  font-size: 1rem;
+  /* padding-left: 6rem; */
+}
+.inputNum button {
+  /* position: absolute;*/
+
+  padding: 0.58rem 0.9rem;
+}
+.succefulMSG {
+  text-align: center;
+}
